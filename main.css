@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 50px;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1{
+    font-weight: 500;
+}
+.container {
+    text-align: center;
+    font-weight: 300;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    padding-top: 30PX;
+}
+
+form input{
+    background-color: #f2f2f2;
+    border: none;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#contatos {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 6px;
+    background-color: #f2f2f2;
+    font-weight: 300;
+    width: 50%;
+}
+
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    margin-top: 50px;
+}
+
+
